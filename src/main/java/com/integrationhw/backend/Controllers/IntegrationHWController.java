@@ -1,13 +1,10 @@
 package com.integrationhw.backend.Controllers;
 
-import com.google.gson.Gson;
 import com.integrationhw.backend.Models.ArtistQueryResponseModel;
 import com.integrationhw.backend.Models.addDataDemoResponseModel;
 import com.integrationhw.backend.Repositories.RDF4JRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
-import sun.security.provider.certpath.OCSPResponse;
 
 import java.util.List;
 
